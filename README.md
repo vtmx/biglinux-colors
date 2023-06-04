@@ -1,6 +1,8 @@
 # BigLinux Colors
 
-Pacote de cores padrão do BigLinux para os softwares abaixo:
-- Cores do do plasma
+Esquema de cores padrão do [BigLinux](https://www.biglinux.com.br).
+
+Suporte aos softwares:
+- Plasma
 - Kate
 - Konsole
