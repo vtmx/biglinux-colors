@@ -1,98 +1,98 @@
 [Background]
-Color=32,6,5
+Color=40,42,47
 
 [BackgroundFaint]
-Color=32,6,5
+Color=40,42,47
 
 [BackgroundIntense]
-Color=32,6,5
+Color=40,42,47
 
 [Color0]
-Color=42,48,58
+Color=236,238,239
 
 [Color0Faint]
-Color=42,48,58
+Color=236,238,239
 
 [Color0Intense]
-Color=42,48,58
+Color=236,238,239
 
 [Color1]
-Color=224,108,117
+Color=228,86,73
 
 [Color1Faint]
-Color=224,108,117
+Color=228,86,73
 
 [Color1Intense]
-Color=224,108,117
+Color=228,86,73
 
 [Color2]
-Color=152,195,121
+Color=80,161,79
 
 [Color2Faint]
-Color=152,195,121
+Color=80,161,79
 
 [Color2Intense]
-Color=152,195,121
+Color=80,161,79
 
 [Color3]
-Color=229,192,123
+Color=193,132,1
 
 [Color3Faint]
-Color=229,192,123
+Color=193,132,1
 
 [Color3Intense]
-Color=229,192,123
+Color=193,132,1
 
 [Color4]
-Color=97,175,239
+Color=64,120,242
 
 [Color4Faint]
-Color=97,175,239
+Color=64,120,242
 
 [Color4Intense]
-Color=97,175,239
+Color=64,120,242
 
 [Color5]
-Color=198,120,221
+Color=166,38,164
 
 [Color5Faint]
-Color=198,120,221
+Color=166,38,164
 
 [Color5Intense]
-Color=198,120,221
+Color=166,38,164
 
 [Color6]
-Color=86,182,194
+Color=1,132,188
 
 [Color6Faint]
-Color=86,182,194
+Color=1,132,188
 
 [Color6Intense]
-Color=86,182,194
+Color=1,132,188
 
 [Color7]
-Color=146,152,165
+Color=205,206,209
 
 [Color7Faint]
-Color=146,152,165
+Color=205,206,209
 
 [Color7Intense]
-Color=211,218,227
+Color=205,206,209
 
 [Foreground]
-Color=211,218,227
+Color=40,42,47
 
 [ForegroundFaint]
-Color=211,218,227
+Color=40,42,47
 
 [ForegroundIntense]
-Color=211,218,227
+Color=40,42,47
 
 [General]
 Anchor=0.5,0.5
 Blur=false
 ColorRandomization=false
-Description=BigLinux Dark
+Description=BigLinux Light
 FillStyle=Tile
 Opacity=1
 Wallpaper=
