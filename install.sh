@@ -5,13 +5,17 @@ set -o pipefail
 set -o nounset
 
 main() {
-  copy_files "kde/*.colors" "${HOME}/.local/share/color-schemes"
+  copy_files "kde/*.colors" "${HOME}/.local/share/color-schemes/"
   copy_files "konsole/*.colorscheme" "${HOME}/.local/share/konsole"
   copy_files "kate/*.theme" "${HOME}/.local/share/org.kde.syntax-highlighting/themes"
 }
 
 copy_files() {
-  if ! cp -f "${1}" "${2}" 2>/dev/null; then
+  if [[ ! -d ${2} ]]; then
+    mkdir -p ${2}
+  fi
+  
+  if ! cp -f ${1} ${2} 2>/dev/null; then
     exit_error "No such directory: '${2}'"
   fi
 }

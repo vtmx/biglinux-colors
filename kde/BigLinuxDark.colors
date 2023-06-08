@@ -93,7 +93,7 @@ ForegroundPositive=39,174,96
 ForegroundVisited=100,114,134
 
 [General]
-ColorScheme=BigLinux-Dark
+ColorScheme=BigLinux Dark
 Name=BigLinux-Dark
 shadeSortColumn=true
 

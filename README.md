@@ -6,6 +6,9 @@ Color scheme of [BigLinux](https://www.biglinux.com.br).
 - [Kate](kate)
 - [Konsole](konsole)
 
+
+## Location
+
 ```sh
 # Colors
 /usr/share/color-schemes/
@@ -129,28 +132,28 @@ Color scheme of [BigLinux](https://www.biglinux.com.br).
     <td><code>163,165,172</code></td>
   </tr>
   <tr>
-    <td><img src="https://fakeimg.pl/32x32/61afef/?text=+" alt="Color"></td>
+    <td><img src="https://fakeimg.pl/32x32/2980b9/?text=+" alt="Color"></td>
     <td>ForegroundLink</td>
-    <td><code>#61afef</code></td>
-    <td><code>97,175,239</code></td>
+    <td><code>#2980b9</code></td>
+    <td><code>41,128,185</code></td>
   </tr>
   <tr>
-    <td><img src="https://fakeimg.pl/32x32/e06c75/?text=+" alt="Color"></td>
+    <td><img src="https://fakeimg.pl/32x32/da4453/?text=+" alt="Color"></td>
     <td>ForegroundNegative</td>
-    <td><code>e06c75</code></td>
-    <td><code>224,108,117</code></td>
+    <td><code>#da4453</code></td>
+    <td><code>218,68,83</code></td>
   </tr>
   <tr>
-    <td><img src="https://fakeimg.pl/32x32/e5c07b/?text=+" alt="Color"></td>
+    <td><img src="https://fakeimg.pl/32x32/f67400/?text=+" alt="Color"></td>
     <td>ForegroundNeutral</td>
-    <td><code>#e5c07b</code></td>
-    <td><code>229,192,123</code></td>
+    <td><code>#f67400</code></td>
+    <td><code>246,116,0</code></td>
   </tr>
   <tr>
-    <td><img src="https://fakeimg.pl/32x32/98c379/?text=+" alt="Color"></td>
+    <td><img src="https://fakeimg.pl/32x32/27ae60/?text=+" alt="Color"></td>
     <td>ForegroundPositive</td>
-    <td><code>#98c379</code></td>
-    <td><code>152,195,121</code></td>
+    <td><code>#27ae60</code></td>
+    <td><code>39,174,96</code></td>
   </tr>
   <tr>
     <td><img src="https://fakeimg.pl/32x32/7f8c8d/?text=+" alt="Color"></td>

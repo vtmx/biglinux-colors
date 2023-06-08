@@ -432,15 +432,15 @@
   </tr>
   <tr>
     <td>ForegroundNegative</td>
-    <td><img src="https://fakeimg.pl/32x32/e06c75/?text=+" alt="Color"></td>
-    <td><code>#e06c75</code></td>
-    <td><code>224,108,117</code></td>
+    <td><img src="https://fakeimg.pl/32x32/da4453/?text=+" alt="Color"></td>
+    <td><code>#da4453</code></td>
+    <td><code>218,68,83</code></td>
   </tr>
   <tr>
     <td>ForegroundNeutral</td>
-    <td><img src="https://fakeimg.pl/32x32/e5c07b/?text=+" alt="Color"></td>
-    <td><code>#e5c07b</code></td>
-    <td><code>229,192,123</code></td>
+    <td><img src="https://fakeimg.pl/32x32/f67400/?text=+" alt="Color"></td>
+    <td><code>#f67400</code></td>
+    <td><code>246,116,0</code></td>
   </tr>
   <tr>
     <td>ForegroundNormal</td>
@@ -450,8 +450,8 @@
   </tr>
   <tr>
     <td>ForegroundPositive</td>
-    <td><img src="https://fakeimg.pl/32x32/98c379/?text=+" alt="Color"></td>
-    <td><code>#98c379</code></td>
+    <td><img src="https://fakeimg.pl/32x32/27ae60/?text=+" alt="Color"></td>
+    <td><code>#27ae60</code></td>
     <td><code>39,174,96</code></td>
   </tr>
   <tr>
@@ -499,21 +499,21 @@
   </tr>
   <tr>
     <td>ForegroundLink</td>
-    <td><img src="https://fakeimg.pl/32x32/fdbc4b/?text=+" alt="Color"></td>
-    <td><code>#fdbc4b</code></td>
-    <td><code>253,188,75</code></td>
+    <td><img src="https://fakeimg.pl/32x32/2980b9/?text=+" alt="Color"></td>
+    <td><code>#2980b9</code></td>
+    <td><code>41,128,185</code></td>
   </tr>
   <tr>
     <td>ForegroundNegative</td>
-    <td><img src="https://fakeimg.pl/32x32/e06c75/?text=+" alt="Color"></td>
-    <td><code>#e06c75</code></td>
-    <td><code>224,108,117</code></td>
+    <td><img src="https://fakeimg.pl/32x32/da4453/?text=+" alt="Color"></td>
+    <td><code>#da4453</code></td>
+    <td><code>218,68,83</code></td>
   </tr>
   <tr>
     <td>ForegroundNeutral</td>
-    <td><img src="https://fakeimg.pl/32x32/e5c07b/?text=+" alt="Color"></td>
-    <td><code>#e5c07b</code></td>
-    <td><code>229,192,123</code></td>
+    <td><img src="https://fakeimg.pl/32x32/f67400/?text=+" alt="Color"></td>
+    <td><code>#f67400</code></td>
+    <td><code>246,116,0</code></td>
   </tr>
   <tr>
     <td>ForegroundNormal</td>
@@ -523,8 +523,8 @@
   </tr>
   <tr>
     <td>ForegroundPositive</td>
-    <td><img src="https://fakeimg.pl/32x32/98c379/?text=+" alt="Color"></td>
-    <td><code>#98c379</code></td>
+    <td><img src="https://fakeimg.pl/32x32/27ae60/?text=+" alt="Color"></td>
+    <td><code>#27ae60</code></td>
     <td><code>39,174,96</code></td>
   </tr>
   <tr>
@@ -533,7 +533,6 @@
     <td><code>#bdc3c7</code></td>
     <td><code>189,195,199</code></td>
   </tr>
-
  <tr>
     <th rowspan="12">Tooltip</th>
     <td>BackgroundAlternate</td>
@@ -579,15 +578,15 @@
   </tr>
   <tr>
     <td>ForegroundNegative</td>
-    <td><img src="https://fakeimg.pl/32x32/e06c75/?text=+" alt="Color"></td>
-    <td><code>#e06c75</code></td>
-    <td><code>224,108,117</code></td>
+    <td><img src="https://fakeimg.pl/32x32/da4453/?text=+" alt="Color"></td>
+    <td><code>#da4453</code></td>
+    <td><code>218,68,83</code></td>
   </tr>
   <tr>
     <td>ForegroundNeutral</td>
-    <td><img src="https://fakeimg.pl/32x32/e5c07b/?text=+" alt="Color"></td>
-    <td><code>#e5c07b</code></td>
-    <td><code>229,192,123</code></td>
+    <td><img src="https://fakeimg.pl/32x32/f67400/?text=+" alt="Color"></td>
+    <td><code>#f67400</code></td>
+    <td><code>246,116,0</code></td>
   </tr>
   <tr>
     <td>ForegroundNormal</td>
@@ -597,8 +596,8 @@
   </tr>
   <tr>
     <td>ForegroundPositive</td>
-    <td><img src="https://fakeimg.pl/32x32/98c379/?text=+" alt="Color"></td>
-    <td><code>#98c379</code></td>
+    <td><img src="https://fakeimg.pl/32x32/27ae60/?text=+" alt="Color"></td>
+    <td><code>#27ae60</code></td>
     <td><code>39,174,96</code></td>
   </tr>
   <tr>
@@ -652,15 +651,15 @@
   </tr>
   <tr>
     <td>ForegroundNegative</td>
-    <td><img src="https://fakeimg.pl/32x32/e06c75/?text=+" alt="Color"></td>
-    <td><code>#e06c75</code></td>
-    <td><code>224,108,117</code></td>
+    <td><img src="https://fakeimg.pl/32x32/da4453/?text=+" alt="Color"></td>
+    <td><code>#da4453</code></td>
+    <td><code>218,68,83</code></td>
   </tr>
   <tr>
     <td>ForegroundNeutral</td>
-    <td><img src="https://fakeimg.pl/32x32/e5c07b/?text=+" alt="Color"></td>
-    <td><code>#e5c07b</code></td>
-    <td><code>229,192,123</code></td>
+    <td><img src="https://fakeimg.pl/32x32/f67400/?text=+" alt="Color"></td>
+    <td><code>#f67400</code></td>
+    <td><code>246,116,0</code></td>
   </tr>
   <tr>
     <td>ForegroundNormal</td>
@@ -670,8 +669,8 @@
   </tr>
   <tr>
     <td>ForegroundPositive</td>
-    <td><img src="https://fakeimg.pl/32x32/98c379/?text=+" alt="Color"></td>
-    <td><code>#98c379</code></td>
+    <td><img src="https://fakeimg.pl/32x32/27ae60/?text=+" alt="Color"></td>
+    <td><code>#27ae60</code></td>
     <td><code>39,174,96</code></td>
   </tr>
   <tr>
@@ -725,15 +724,15 @@
   </tr>
   <tr>
     <td>ForegroundNegative</td>
-    <td><img src="https://fakeimg.pl/32x32/e06c75/?text=+" alt="Color"></td>
-    <td><code>#e06c75</code></td>
-    <td><code>224,108,117</code></td>
+    <td><img src="https://fakeimg.pl/32x32/da4453/?text=+" alt="Color"></td>
+    <td><code>#da4453</code></td>
+    <td><code>218,68,83</code></td>
   </tr>
   <tr>
     <td>ForegroundNeutral</td>
-    <td><img src="https://fakeimg.pl/32x32/e5c07b/?text=+" alt="Color"></td>
-    <td><code>#e5c07b</code></td>
-    <td><code>229,192,123</code></td>
+    <td><img src="https://fakeimg.pl/32x32/f67400/?text=+" alt="Color"></td>
+    <td><code>#f67400</code></td>
+    <td><code>246,116,0</code></td>
   </tr>
   <tr>
     <td>ForegroundNormal</td>
@@ -743,8 +742,8 @@
   </tr>
   <tr>
     <td>ForegroundPositive</td>
-    <td><img src="https://fakeimg.pl/32x32/98c379/?text=+" alt="Color"></td>
-    <td><code>#98c379</code></td>
+    <td><img src="https://fakeimg.pl/32x32/27ae60/?text=+" alt="Color"></td>
+    <td><code>#27ae60</code></td>
     <td><code>39,174,96</code></td>
   </tr>
   <tr>
