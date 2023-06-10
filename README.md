@@ -2,8 +2,8 @@
 
 [BigLinux](https://www.biglinux.com.br) color scheme for:
 
-- [KDE](/kde)
-- [Konsole](/konsole)
+- [KDE](/kde/README.md)
+- [Konsole](/konsole/README.md)
 
 ## Install
 
@@ -15,10 +15,10 @@ chmod +x setup.sh && ./setup.sh
 
 ```sh
 # Colors
-/usr/share/color-schemes/
+~/.local/usr/share/color-schemes/
 
 # Konsole
-/usr/share/konsole/
+~/.local/usr/share/konsole/
 ```
 
 ## Dark
