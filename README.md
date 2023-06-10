@@ -1,11 +1,15 @@
 # BigLinux Colors
 
-Color scheme of [BigLinux](https://www.biglinux.com.br).
+[BigLinux](https://www.biglinux.com.br) color scheme for:
 
-- [KDE](kde)
-- [Kate](kate)
-- [Konsole](konsole)
+- [KDE](/kde)
+- [Konsole](/konsole)
 
+## Install
+
+```sh
+chmod +x setup.sh && ./setup.sh
+```
 
 ## Location
 
@@ -15,10 +19,6 @@ Color scheme of [BigLinux](https://www.biglinux.com.br).
 
 # Konsole
 /usr/share/konsole/
-
-# Kate
-/usr/share/org.kde.syntax-highlighting/syntax-bundled/
-~/.local/share/org.kde.syntax-highlighting/themes/
 ```
 
 ## Dark

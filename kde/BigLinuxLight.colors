@@ -89,7 +89,7 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [General]
-ColorScheme=BigLinux-Light
+ColorScheme=BigLinuxLight
 Name=Biglinux Light
 TintFactor=0.15
 shadeSortColumn=true

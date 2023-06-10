@@ -4,19 +4,27 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
+src_dir="$(cd "$(dirname "$0")" && pwd)"
+
+if [[ $EUID -eq 0 ]]; then
+  dest_dir="/usr/share/"
+else
+  dest_dir="${HOME}/.local/share/"
+fi
+
 main() {
-  copy_files "kde/*.colors" "${HOME}/.local/share/color-schemes/"
-  copy_files "konsole/*.colorscheme" "${HOME}/.local/share/konsole"
-  copy_files "kate/*.theme" "${HOME}/.local/share/org.kde.syntax-highlighting/themes"
+  copy_files "KDE" "${src_dir}/kde/*.colors" "${dest_dir}/color-schemes/"
+  copy_files "Konsole" "${src_dir}/konsole/*.colorscheme" "${dest_dir}/konsole/"
 }
 
 copy_files() {
-  if [[ ! -d ${2} ]]; then
-    mkdir -p ${2}
+  if [[ ! -d ${3} ]]; then
+    mkdir -p "${3}"
   fi
   
-  if ! cp -f ${1} ${2} 2>/dev/null; then
-    exit_error "No such directory: '${2}'"
+  echo "Copying ${1} colors..."
+  if ! cp -f ${2} ${3}; then
+    exit_error "Fail in copy"
   fi
 }
 
@@ -36,5 +44,6 @@ exit_error() {
   exit 1
 }
 
+echo
 main
 exit_success "BigLinux Colors successfully installed"
