@@ -1,0 +1,109 @@
+:root {
+  /* colors */
+  --gray0: #20242d;
+  --gray1: #2a303a;
+  --gray9: #eee;
+  --blue0: #069;
+
+  /* typo */
+  --font-sans-serif: Inter, sans-serif;
+  --font-monospace: 'BlexMono Nerd Font';
+  --font-size1: ;
+  --font-size2: ;
+  --font-size3: ;
+
+  /* spacing */
+  --spacing1: 10px;
+
+  /* border */
+  --border-radius: 4px;
+
+  /* window */
+  --window-bg: var(--gray1);
+  --window-box-shadow: 0 0 16px rgba(0 0 0 / 0.5);
+
+  /* titlebar */
+  --titlebar-bg: var(--gray0);
+  --titlebar-fg: var(--gray9);
+
+  /* panel */
+  --panel-bg: var(--gray1);
+  --panel-padding: var(--spacing1);
+
+  /* view */
+  --view-bg: var(--gray0);
+  --view-padding: var(--spacing1);
+
+  /* status */
+  --status-bg: var(--gray1);
+  --status-fg: var(--gray9);
+
+  /* button */
+  --button-bg: var(--blue0);
+  --button-fg: var(--gray9);
+  --button-bg-hover: var(--blue0);
+  --button-fg-hover: var(--gray9);
+  --button-bg-active: var(--blue0);
+  --button-fg-active: var(--gray9);
+  --button-bg-focus: var(--blue0);
+  --button-fg-focus: var(--gray9);
+  --button-padding: var(--spacing1);
+  --button-radius: var(--border-radius);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(./assets/wallpaper.jpg);
+  background-size: 100% 100% cover;
+}
+
+.window {
+  display: grid;
+  grid-template-areas: 
+  "titlebar titlebar"
+  "panel view"
+  "status status";
+  grid-template-columns: 180px 1fr;
+  grid-template-rows: 32px 300px 32px;
+  min-height: 30vh;
+  margin: 120px;
+  background: var(--window-bg);
+  box-shadow: var(--window-box-shadow);
+}
+
+.titlebar {
+  grid-area: titlebar;
+  background: var(--titlebar-bg);
+  color: var(--titlebar-fg);
+}
+
+.panel {
+  grid-area: panel;
+  width: 10vw;
+  padding: var(--panel-padding);
+  background: var(--panel-bg);
+}
+
+.view {
+  grid-area: view;
+  padding: var(--view-padding);
+  background: var(--view-bg);
+}
+
+.status {
+  grid-area: status;
+  background: var(--status-bg);
+}
+
+button {
+  padding: var(--button-padding);
+  background: var(--button-bg);
+  border: none;
+  border-radius: var(--button-radius);
+  color: var(--button-fg);
+}

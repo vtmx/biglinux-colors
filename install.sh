@@ -15,6 +15,7 @@ fi
 main() {
   copy_files "KDE" "${src_dir}/kde/*.colors" "${dest_dir}/color-schemes/"
   copy_files "Konsole" "${src_dir}/konsole/*.colorscheme" "${dest_dir}/konsole/"
+  exit_success "BigLinux Colors successfully installed"
 }
 
 copy_files() {
@@ -32,7 +33,7 @@ exit_success() {
   local message="$1"
   local green="\033[0;32m"
   local color_off="\033[0m"
-  echo -e "${green}${message}${color_off}\n"
+  echo -e "${green}${message}${color_off}"
   exit 0
 }
 
@@ -40,10 +41,8 @@ exit_error() {
   local message="$1"
   local red="\033[0;31m"
   local color_off="\033[0m"
-  echo -e "${red}${message}${color_off}\n"
+  echo -e "${red}${message}${color_off}"
   exit 1
 }
 
-echo
 main
-exit_success "BigLinux Colors successfully installed"
