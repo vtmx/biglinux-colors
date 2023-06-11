@@ -13,7 +13,7 @@ else
 fi
 
 main() {
-  copy_files "KDE" "${src_dir}/kde/*.colors" "${dest_dir}/color-schemes/"
+  copy_files "KDE" "${src_dir}/color-schemes/*.colors" "${dest_dir}/color-schemes/"
   copy_files "Konsole" "${src_dir}/konsole/*.colorscheme" "${dest_dir}/konsole/"
   exit_success "BigLinux Colors successfully installed"
 }
