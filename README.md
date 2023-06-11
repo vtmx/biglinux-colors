@@ -43,12 +43,6 @@ chmod +x setup.sh && ./setup.sh
     <td><code>42,48,58</code></td>
   </tr>
   <tr>
-    <td><img src="https://fakeimg.pl/32x32/647286/?text=+" alt="Color"></td>
-    <td>ForegroundVisited</td>
-    <td><code>#647286</code></td>
-    <td><code>146,152,165</code></td>
-  </tr>
-  <tr>
     <td><img src="https://fakeimg.pl/32x32/9298a5/?text=+" alt="Color"></td>
     <td>ForegroundInactive</td>
     <td><code>#9298a5</code></td>
@@ -89,6 +83,12 @@ chmod +x setup.sh && ./setup.sh
     <td>ForegroundLink</td>
     <td><code>#61afef</code></td>
     <td><code>97,175,239</code></td>
+  </tr>
+  <tr>
+    <td><img src="https://fakeimg.pl/32x32/c678dd/?text=+" alt="Color"></td>
+    <td>ForegroundVisited</td>
+    <td><code>#c678dd</code></td>
+    <td><code>198,120,221</code></td>
   </tr>
 </table>
 
