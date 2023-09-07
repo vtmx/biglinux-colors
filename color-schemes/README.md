@@ -1,6 +1,12 @@
 # KDE
 
-## Dark
+## Location
+
+```sh
+~/.local/usr/share/color-schemes/
+```
+
+## BigLinuxDark
 
 <table>
   <tr>
@@ -377,7 +383,7 @@
   </tr>
 </table>
 
-## Light
+## BigLinuxLight
 
 <table>
   <tr>
@@ -755,4 +761,4 @@
 </table>
 
 ## References
-- [KDE](https://develop.kde.org/hig/style/color/default)
+- [KDE Style](https://develop.kde.org/hig/style/color/default)

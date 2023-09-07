@@ -1,6 +1,12 @@
 # Konsole
 
-## Dark
+## Location
+
+```sh
+~/.local/share/konsole/
+```
+
+## Colors
 
 <table>
   <tr>
@@ -75,6 +81,3 @@
     <td><code>211,218,227</code></td>
   </tr>
 </table>
-
-## References
-- [Themer](https://themer.dev)
