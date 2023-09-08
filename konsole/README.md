@@ -6,7 +6,7 @@
 ~/.local/share/konsole/
 ```
 
-## Colors
+## BigLinuxDark
 
 <table>
   <tr>

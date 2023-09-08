@@ -1,4 +1,4 @@
-# KDE
+# Color Schemes
 
 ## Location
 

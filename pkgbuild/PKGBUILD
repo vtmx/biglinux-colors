@@ -1,0 +1,17 @@
+# Maintainer: Vitor Melo <https://github.com/vtmx>
+
+pkgname="biglinux-colors"
+pkgdesc="BigLinux Colors for KDE."
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+arch=('any')
+depends=('plasma-desktop')
+license=('GPL3')
+md5sums=('SKIP')
+provides=("$pkgname")
+url="https://github.com/vtmx/biglinux-colors"
+source=("git+${url}.git")
+
+package() {
+  echo "teste"
+}

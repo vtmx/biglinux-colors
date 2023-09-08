@@ -2,8 +2,8 @@
 
 Color schemes of [BigLinux](https://www.biglinux.com.br) for:
 
-- [KDE](/kde/README.md)
-- [Konsole](/konsole/README.md)
+- [KDE](color-schemes/README.md)
+- [Konsole](konsole/README.md)
 
 ## Install
 

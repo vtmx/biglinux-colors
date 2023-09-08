@@ -1,30 +1,26 @@
 #!/usr/bin/env bash
 
-set -o errexit
-set -o pipefail
-set -o nounset
-
 src_dir="$(cd "$(dirname "$0")" && pwd)"
 
 if [[ $EUID -eq 0 ]]; then
-  dest_dir="/usr/share/"
+  dest_dir="/usr/share"
 else
-  dest_dir="${HOME}/.local/share/"
+  dest_dir="${HOME}/.local/share"
 fi
 
 main() {
-  copy_files "KDE" "${src_dir}/color-schemes/*.colors" "${dest_dir}/color-schemes/"
-  copy_files "Konsole" "${src_dir}/konsole/*.colorscheme" "${dest_dir}/konsole/"
+  copy_files "KDE" "$src_dir/color-schemes/*.colors" "$dest_dir/color-schemes"
+  copy_files "Konsole" "$src_dir/konsole/*.colorscheme" "$dest_dir/konsole"
   exit_success "BigLinux Colors successfully installed"
 }
 
 copy_files() {
-  if [[ ! -d ${3} ]]; then
-    mkdir -p "${3}"
+  if [[ ! -d "$3" ]]; then
+    mkdir -p "$3"
   fi
   
-  echo "Copying ${1} colors..."
-  if ! cp -f ${2} ${3}; then
+  echo "Copying $1 colors..."
+  if ! cp -f $2 $3; then
     exit_error "Fail in copy"
   fi
 }
