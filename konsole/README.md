@@ -28,7 +28,7 @@
     <td><code>32,36,45</code></td>
   </tr>
   <tr>
-    <td><img src="https://fakeimg.pl/32x32/2a303a/?text=+" alt="Color"></td>
+    <td><img src="https://fakeimg.pl/32x32/20242d/?text=+" alt="Color"></td>
     <td>Color 1</td>
     <td><code>#20242d</code></td>
     <td><code>32,36,45</code></td>
