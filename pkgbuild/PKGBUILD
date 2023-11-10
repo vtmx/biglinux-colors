@@ -13,5 +13,7 @@ url="https://github.com/vtmx/biglinux-colors"
 source=("git+${url}.git")
 
 package() {
-  echo "teste"
+  install -Dm644 "$srcdir/biglinux-colors/konsole/BigLinuxDark.colorscheme" "$pkgdir/usr/share/konsole/BigLinuxDark.colorscheme"
+  install -Dm644 "$srcdir/biglinux-colors/color-schemes/BigLinuxDark.colors" "$pkgdir/usr/share/color-schemes/BigLinuxDark.colors"
+  install -Dm644 "$srcdir/biglinux-colors/color-schemes/BigLinuxLight.colors" "$pkgdir/usr/share/color-schemes/BigLinuxLight.colors"
 }
