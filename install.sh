@@ -2,11 +2,7 @@
 
 src_dir="$(cd "$(dirname "$0")" && pwd)"
 
-if [[ $EUID -eq 0 ]]; then
-  dest_dir="/usr/share"
-else
-  dest_dir="${HOME}/.local/share"
-fi
+[[ $EUID -eq 0 ]] && dest_dir="/usr/share" || dest_dir="$HOME/.local/share"
 
 main() {
   copy_files "KDE" "$src_dir/color-schemes/*.colors" "$dest_dir/color-schemes"
@@ -15,9 +11,7 @@ main() {
 }
 
 copy_files() {
-  if [[ ! -d "$3" ]]; then
-    mkdir -p "$3"
-  fi
+  [[ ! -d $3 ]] && mkdir -p $3
   
   echo "Copying $1 colors..."
   if ! cp -f $2 $3; then
